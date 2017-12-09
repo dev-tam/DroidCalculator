@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="10pt"
+    android:padding="10dp"
     tools:context="net.torora.jtam.droidcalculator.MainActivity">
 
     <EditText
@@ -34,27 +34,35 @@
                 android:id="@+id/button19"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
+                android:layout_weight="1"
                 android:background="@color/whiteback"
-                android:text="AC" />
+                android:text="AC"
+                android:textSize="18sp" />
 
             <Button
+                android:textSize="18sp"
                 android:id="@+id/button18"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
+                android:layout_weight="1"
                 android:background="@color/whiteback"
                 android:text="+/-" />
 
             <Button
+                android:textSize="18sp"
                 android:id="@+id/button17"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
+                android:layout_weight="1"
                 android:background="@color/whiteback"
                 android:text="%" />
 
             <Button
+                android:textSize="18sp"
                 android:id="@+id/button16"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
+                android:layout_weight="1"
                 android:background="@color/buop"
                 android:text="/"
                 android:textColor="@color/opfont" />
@@ -65,30 +73,38 @@
             android:layout_height="match_parent">
 
             <Button
+                android:textSize="18sp"
                 android:id="@+id/button7"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
+                android:layout_weight="1"
                 android:background="@color/whiteback"
                 android:text="7" />
 
             <Button
+                android:textSize="18sp"
                 android:id="@+id/button6"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
+                android:layout_weight="1"
                 android:background="@color/whiteback"
                 android:text="8" />
 
             <Button
+                android:textSize="18sp"
                 android:id="@+id/button5"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
+                android:layout_weight="1"
                 android:background="@color/whiteback"
                 android:text="9" />
 
             <Button
+                android:textSize="18sp"
                 android:id="@+id/button4"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
+                android:layout_weight="1"
                 android:background="@color/buop"
                 android:text="*"
                 android:textColor="@color/opfont" />
@@ -99,30 +115,38 @@
             android:layout_height="match_parent">
 
             <Button
+                android:textSize="18sp"
                 android:id="@+id/button11"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
+                android:layout_weight="1"
                 android:background="@color/whiteback"
                 android:text="4" />
 
             <Button
+                android:textSize="18sp"
                 android:id="@+id/button10"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
+                android:layout_weight="1"
                 android:background="@color/whiteback"
                 android:text="5" />
 
             <Button
+                android:textSize="18sp"
                 android:id="@+id/button9"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
+                android:layout_weight="1"
                 android:background="@color/whiteback"
                 android:text="6" />
 
             <Button
+                android:textSize="18sp"
                 android:id="@+id/button8"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
+                android:layout_weight="1"
                 android:background="@color/buop"
                 android:text="-"
                 android:textColor="@color/opfont" />
@@ -133,30 +157,38 @@
             android:layout_height="match_parent">
 
             <Button
+                android:textSize="18sp"
                 android:id="@+id/button15"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
+                android:layout_weight="1"
                 android:background="@color/whiteback"
                 android:text="1" />
 
             <Button
+                android:textSize="18sp"
                 android:id="@+id/button14"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
+                android:layout_weight="1"
                 android:background="@color/whiteback"
                 android:text="2" />
 
             <Button
+                android:textSize="18sp"
                 android:id="@+id/button13"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
+                android:layout_weight="1"
                 android:background="@color/whiteback"
                 android:text="3" />
 
             <Button
+                android:textSize="18sp"
                 android:id="@+id/button12"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
+                android:layout_weight="1"
                 android:background="@color/buop"
                 android:text="+"
                 android:textColor="@color/opfont" />
@@ -170,6 +202,7 @@
         android:orientation="horizontal">
 
         <Button
+            android:textSize="18sp"
             android:id="@+id/button3"
             android:layout_width="60pt"
             android:layout_height="30pt"
@@ -178,6 +211,7 @@
             android:text="0" />
 
         <Button
+            android:textSize="18sp"
             android:id="@+id/button2"
             android:layout_width="30pt"
             android:layout_height="30pt"
@@ -186,6 +220,7 @@
             android:text="." />
 
         <Button
+            android:textSize="18sp"
             android:id="@+id/button"
             android:layout_width="30pt"
             android:layout_height="30pt"
